@@ -24,3 +24,9 @@ img {
   justify-content: center;
   background: #eee;
 }
+/* my changes */
+
+.title{
+  justify-content: center;
+  align-content: center;
+}
