@@ -25,8 +25,20 @@ img {
   background: #eee;
 }
 /* my changes */
+body{
+  text-align: center;
+}
 
 .title{
+  margin-bottom: 32px;
+}
+
+.content{
+  gap: 52px;
+  display: flex;
   justify-content: center;
-  align-content: center;
+}
+
+.info{
+  max-width: 200px;
 }
