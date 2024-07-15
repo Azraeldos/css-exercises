@@ -27,3 +27,43 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* my changes */
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  align-content: center;
+  padding: 0 16px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.sidebar{
+  padding: 16px;
+  width: 300px;
+  flex-shrink: 0;
+}
+.footer{
+  text-align: center;
+  align-content: center;
+}
+li, a{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.container{
+  display: flex;
+  gap: 32px;
+  padding: 48px;
+  flex-wrap: wrap;
+}
+.body{
+  display: flex;
+  flex: 1;
+}
+.card{
+  padding: 16px;
+  width: 300px;
+}
